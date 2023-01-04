@@ -1,0 +1,93 @@
+                                             java
+                                       ****28/11/2022***** 
+Constructor:- Constructor is a special method , which is used to initialize variable .
+The constructor has following propertion :-
+1. constructor name is same class name.
+2. constructor doesn't return any value .
+3. constructor coll automatically as soon as object is createed.
+
+Inheritance:- In Inheritance you can create a new class by using existing class.Existing class is called base / super / parent class and new created class is called derived / sud /child class.
+Note :: The concept of inheritance is also called 'Reusability' .
+         class A
+		 {
+		 //code
+		 }
+		 class B extends A
+		 { 
+		 //code
+		 }
+		 
+Types of Inheritance supported in java :- In java programming language there are three types of inheritance are supported
+1. single Inheritance
+2. Hierarchical Inheritance
+3. Multi-level inheritance
+
+1 single inheritance :- single inheritance there is a single base class and single derived class.
+  Syntax 
+          class A
+		  {
+		  //code 
+		  }
+		  class B extends A
+		  {
+		  //code 
+		  }
+		  
+		  
+2 Hierarchical inheritance:- in Hierarchical inheritance there is a single base class and multiple derived classes.
+    syntax -
+	class A
+	{
+	//code
+	}
+	class B extends A
+	{
+	//code
+	}
+	class c extends A
+	{
+	//code
+	}
+	
+3 multi-level inheritance:- 
+
+      syntax 
+	  class A
+	  {
+	  //code
+	  }
+	  class B extends A
+	  {
+	  //code
+	  }
+	  class C extends B
+	  {
+	  //code
+	  }
+	  
+	                                          29/11/2022
+	                                        ***************
+	Polymorphise in java :- The term Polymorphise meanu one thing many forms . In java programming language there are two types of Polymorphise :-
+	1. comile time Polymorphise (method overlodimg)
+	2. Run tim   e Polymorphise (method overriding)
+	
+	Method Overloading:- In java programming language you can create multiple method with same name in same class but their parameters should be different .
+	Based on method parameters it is decided at compilation time that which method call from where.This concept is called method overloadimg.
+	method parameters can be different in two types :-
+	1. Number of parameters can be different.
+	2. Types of parameters can be different.
+	
+	Method Overriding:- Re-writing of base class method into derived class is called method overriding. 
+	Rules to perform method overriding in java :-
+	1. Class must be inherited.
+	2. Base class method name and derived class method name must be same.
+	3. Base class method parameters and derived class method parameters must be same.
+*************************************************************
+	                            13/12/2022 **java**
+
+Multi-threading:-the concept of multithreading is taken from the concept of multitasking.
+In Multithreading sysetm CPU switches between multiple processes whereas in multithreading system CPU switches between multiple sub-processes(Threads).
+
+                                 *********************14-12-2022********************
+
+	
